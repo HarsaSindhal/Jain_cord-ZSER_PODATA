@@ -1,0 +1,10 @@
+@EndUserText.label: 'Migo data Serv'
+define service Zmm_migodata {
+  expose Zmm_podetail           as Po_detail;
+  expose zpo_f4                 as Po_F4;
+  expose ZMIGO_F4               as migo_f4;
+  expose ZMIGO_NEW_ENTITY       as SCHEDULIN_DATA;
+  expose ZMM_GATE_DETAIL        as gaTE_ENTRY;
+  expose ZMM_DATE_VALID_TO_FORM as DateValidToFrom;
+  expose ZMAT_DOC1              as material_document;
+}

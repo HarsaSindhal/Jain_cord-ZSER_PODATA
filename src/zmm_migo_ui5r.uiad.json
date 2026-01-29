@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "MIGO",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "MIGO"
+  },
+  "ui5AppDetails": {
+    "appId": "zmmmigo"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_B463EC3402CC94890C7A26D1D632F459FBF6BC05_TM",
+    "semanticObject": "zmm_migo",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_B463EC3402CC94890C7A26D1D632F459FBF6BC05_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "MIGO",
+        "subtitle": "MM"
+      }
+    }
+  ]
+}
